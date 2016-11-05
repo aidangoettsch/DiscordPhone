@@ -1,0 +1,27 @@
+{
+  "bot": {
+    "token": "TOKEN",
+    "avatar": "AVATAR IN BASE 64"
+  },
+  "behavior": {
+    "commands": {
+      "prefix": "-",
+      "call": "call"
+    },
+    "guilds": {
+      "GUILD ID": {
+        "permissions": {
+          "Bot": {
+            "all": false
+          }
+        },
+        "defaultPermissions": {
+          "all": true
+        },
+        "logChannels": {
+          "log": "CHANNEL ID"
+        }
+      }
+    }
+  }
+}
